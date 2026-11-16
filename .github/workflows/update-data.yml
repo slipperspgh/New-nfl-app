@@ -1,9 +1,10 @@
-name: Update NFL data
+name: Update sports data
 
 on:
   schedule:
     - cron: "0 12 * * *"            # every day at 12:00 UTC
-    - cron: "0 16,20 * * 0,1,4"     # extra runs on Sun, Mon, Thu (game days)
+    - cron: "0 16,20 * * 0,1,4"     # extra runs on Sun, Mon, Thu (NFL game days)
+    - cron: "0 22 * * *"            # NBA refresh, every day at 22:00 UTC
   workflow_dispatch:                 # lets you run it by hand from the Actions tab
 
 permissions:
@@ -11,7 +12,7 @@ permissions:
   pages: write
 
 jobs:
-  build:
+  nfl:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -19,7 +20,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install nflreadpy pandas pyarrow
-      - name: Build data
+      - name: Build NFL data
         id: build
         continue-on-error: true
         run: |
@@ -31,7 +32,35 @@ jobs:
           git config user.name "statline-bot"
           git config user.email "statline-bot@users.noreply.github.com"
           git add data
-          git commit -m "Update data" || exit 0
+          git commit -m "Update NFL data" || exit 0
+          git push
+      - name: Fail if the build failed
+        if: steps.build.outcome == 'failure'
+        run: exit 1
+
+  nba:
+    needs: nfl
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install sportsdataverse pandas pyarrow
+      - name: Build NBA data
+        id: build
+        continue-on-error: true
+        run: |
+          mkdir -p data
+          python build_nba.py 2>&1 | tee data/nba_log.txt
+          exit ${PIPESTATUS[0]}
+      - name: Save results
+        run: |
+          git config user.name "statline-bot"
+          git config user.email "statline-bot@users.noreply.github.com"
+          git add data
+          git commit -m "Update NBA data" || exit 0
           git push
       - name: Refresh the website
         continue-on-error: true
