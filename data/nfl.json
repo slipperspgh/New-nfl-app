@@ -1,0 +1,368 @@
+{
+ "updated": "2026-11-16T20:28+00:00",
+ "season": 2026,
+ "week": 10,
+ "games": [
+  {
+   "away": "LAC",
+   "home": "BAL",
+   "when": "Monday 20:15",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "230.6/game",
+      21,
+      "QB"
+     ],
+     [
+      "completions",
+      "19.1/game",
+      26,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.6/game",
+      13,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "10.9/game",
+      27,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.2/game",
+      9,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "24.9/game",
+      7,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "105.0/game",
+      11,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.0/game",
+      5,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.4/game",
+      20,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.4/game",
+      27,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "21.5/game",
+      28,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "16.9/game",
+      23,
+      "WR"
+     ],
+     [
+      "receptions",
+      "11.5/game",
+      15,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "157.9/game",
+      10,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.4/game",
+      2,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "5.8/game",
+      32,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.1/game",
+      31,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "51.1/game",
+      18,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.1/game",
+      28,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.1/game",
+      7,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "241.9/game",
+      13,
+      "QB"
+     ],
+     [
+      "completions",
+      "20.8/game",
+      19,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.3/game",
+      23,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "16.6/game",
+      14,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.2/game",
+      10,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "22.6/game",
+      16,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "81.3/game",
+      21,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.0/game",
+      5,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.4/game",
+      15,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.0/game",
+      21,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "17.2/game",
+      32,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "18.7/game",
+      15,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.1/game",
+      12,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "172.6/game",
+      5,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.7/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.1/game",
+      30,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.6/game",
+      25,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "52.2/game",
+      16,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.7/game",
+      7,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.2/game",
+      6,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [
+     [
+      "Denzel Perryman",
+      "LB",
+      "Questionable",
+      "pectoral"
+     ],
+     [
+      "David Njoku",
+      "TE",
+      "Questionable",
+      "fibula"
+     ],
+     [
+      "Trey Pipkins",
+      "T",
+      "Questionable",
+      "not injury related - personal matter"
+     ],
+     [
+      "Kayode Awosika",
+      "G",
+      "Questionable",
+      "fibula"
+     ],
+     [
+      "Kendall Williamson",
+      "S",
+      "Out",
+      "calf"
+     ],
+     [
+      "Justin Eboigbe",
+      "DE",
+      "Questionable",
+      "ankle"
+     ],
+     [
+      "Ladd McConkey",
+      "WR",
+      "Questionable",
+      "back"
+     ],
+     [
+      "Isas Waxter",
+      "CB",
+      "Out",
+      "ankle"
+     ]
+    ],
+    "home": [
+     [
+      "Jaylinn Hawkins",
+      "S",
+      "Out",
+      "knee"
+     ],
+     [
+      "Adam Randall",
+      "RB",
+      "Questionable",
+      "neck"
+     ]
+    ]
+   },
+   "series": {
+    "summary": "LAC won 0 of the last 2",
+    "meetings": [
+     [
+      "2024, Week 12",
+      "LAC 23, BAL 30"
+     ],
+     [
+      "2023, Week 12",
+      "LAC 10, BAL 20"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Justin Herbert",
+      "1 games",
+      "218 pass yds/game"
+     ],
+     [
+      "Ladd McConkey",
+      "1 games",
+      "83 rec yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Lamar Jackson",
+      "1 games",
+      "177 pass yds/game"
+     ],
+     [
+      "Derrick Henry",
+      "1 games",
+      "140 rush yds/game"
+     ],
+     [
+      "Zay Flowers",
+      "1 games",
+      "62 rec yds/game"
+     ]
+    ]
+   }
+  }
+ ]
+}
