@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-16T22:51+00:00",
+ "updated": "2026-11-17T13:00+00:00",
  "season": 2026,
- "week": 10,
+ "week": 11,
  "games": [
   {
-   "away": "LAC",
-   "home": "BAL",
-   "when": "Monday 20:15",
+   "away": "IND",
+   "home": "HOU",
+   "when": "Thursday 20:15",
    "defense": {
     "away": [
      [
       "pass yards",
-      "230.6/game",
-      21,
+      "235.4/game",
+      19,
       "QB"
      ],
      [
       "completions",
-      "19.1/game",
-      26,
+      "17.9/game",
+      30,
       "QB"
      ],
      [
@@ -29,50 +29,50 @@
      ],
      [
       "rush yards",
-      "10.9/game",
-      27,
+      "18.3/game",
+      10,
       "QB"
      ],
      [
       "rush TDs",
       "0.2/game",
-      9,
+      16,
       "QB"
      ],
      [
       "rush attempts",
-      "24.9/game",
-      7,
-      "RB"
-     ],
-     [
-      "rush yards",
-      "105.0/game",
+      "23.3/game",
       11,
       "RB"
      ],
      [
+      "rush yards",
+      "107.9/game",
+      10,
+      "RB"
+     ],
+     [
       "rush TDs",
-      "1.0/game",
-      5,
+      "0.8/game",
+      9,
       "RB"
      ],
      [
       "receiving targets",
       "5.4/game",
-      20,
+      17,
       "RB"
      ],
      [
       "receptions",
-      "3.4/game",
-      27,
+      "3.9/game",
+      23,
       "RB"
      ],
      [
       "receiving yards",
-      "21.5/game",
-      28,
+      "42.8/game",
+      2,
       "RB"
      ],
      [
@@ -83,38 +83,2448 @@
      ],
      [
       "receptions",
+      "9.7/game",
+      27,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "149.0/game",
+      17,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.8/game",
+      20,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.2/game",
+      30,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.3/game",
+      28,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "45.7/game",
+      24,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.7/game",
+      6,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.1/game",
+      10,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "263.1/game",
+      2,
+      "QB"
+     ],
+     [
+      "completions",
+      "22.6/game",
+      9,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.3/game",
+      23,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "12.0/game",
+      24,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.4/game",
+      1,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "21.8/game",
+      19,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "89.1/game",
+      19,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.8/game",
+      13,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "6.4/game",
+      6,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.9/game",
+      6,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "27.8/game",
+      25,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "20.9/game",
+      3,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.3/game",
+      11,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "177.6/game",
+      2,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.9/game",
+      17,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.7/game",
+      23,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.9/game",
+      20,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "51.2/game",
+      17,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.1/game",
+      28,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.0/game",
+      11,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "IND won 1 of the last 3",
+    "meetings": [
+     [
+      "2026, Week 3",
+      "IND 19, HOU 17"
+     ],
+     [
+      "2025, Week 18",
+      "HOU 38, IND 30"
+     ],
+     [
+      "2025, Week 13",
+      "IND 16, HOU 20"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Daniel Jones",
+      "2 games",
+      "218 pass yds/game"
+     ],
+     [
+      "Jonathan Taylor",
+      "5 games",
+      "66 rush yds/game"
+     ],
+     [
+      "Josh Downs",
+      "4 games",
+      "73 rec yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "C.J. Stroud",
+      "5 games",
+      "226 pass yds/game"
+     ],
+     [
+      "Woody Marks",
+      "3 games",
+      "42 rush yds/game"
+     ],
+     [
+      "Nico Collins",
+      "2 games",
+      "108 rec yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "MIA",
+   "home": "BUF",
+   "when": "Sunday 13:00",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "210.4/game",
+      28,
+      "QB"
+     ],
+     [
+      "completions",
+      "19.8/game",
+      23,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.9/game",
+      6,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "7.6/game",
+      30,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.2/game",
+      10,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "24.7/game",
+      7,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "109.9/game",
+      7,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.6/game",
+      22,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.3/game",
+      21,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.3/game",
+      16,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "31.6/game",
+      19,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "12.8/game",
+      32,
+      "WR"
+     ],
+     [
+      "receptions",
+      "9.2/game",
+      29,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "119.2/game",
+      30,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.7/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "7.3/game",
+      14,
+      "TE"
+     ],
+     [
+      "receptions",
+      "6.1/game",
+      7,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "57.9/game",
+      11,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.7/game",
+      7,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.8/game",
+      16,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "256.3/game",
+      7,
+      "QB"
+     ],
+     [
+      "completions",
+      "23.0/game",
+      7,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.7/game",
+      12,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "13.6/game",
+      21,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.0/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "20.4/game",
+      25,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "78.0/game",
+      23,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.8/game",
+      13,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "7.4/game",
+      2,
+      "RB"
+     ],
+     [
+      "receptions",
+      "5.3/game",
+      3,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "40.3/game",
+      6,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "20.6/game",
+      5,
+      "WR"
+     ],
+     [
+      "receptions",
+      "11.6/game",
+      13,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "151.0/game",
+      14,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.2/game",
+      3,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "8.6/game",
+      6,
+      "TE"
+     ],
+     [
+      "receptions",
+      "5.8/game",
+      11,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "61.1/game",
+      8,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.1/game",
+      28,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.7/game",
+      18,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "MIA won 1 of the last 3",
+    "meetings": [
+     [
+      "2025, Week 10",
+      "MIA 30, BUF 13"
+     ],
+     [
+      "2025, Week 3",
+      "BUF 31, MIA 21"
+     ],
+     [
+      "2024, Week 9",
+      "BUF 30, MIA 27"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Ollie Gordon II",
+      "2 games",
+      "18 rush yds/game"
+     ],
+     [
+      "Malik Washington",
+      "3 games",
+      "7 rec yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Josh Allen",
+      "4 games",
+      "223 pass yds/game"
+     ],
+     [
+      "James Cook",
+      "4 games",
+      "71 rush yds/game"
+     ],
+     [
+      "Khalil Shakir",
+      "4 games",
+      "52 rec yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "BAL",
+   "home": "CAR",
+   "when": "Sunday 13:00",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "230.6/game",
+      21,
+      "QB"
+     ],
+     [
+      "completions",
+      "19.9/game",
+      21,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.2/game",
+      27,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "20.0/game",
+      7,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      7,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "23.0/game",
+      16,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "84.1/game",
+      21,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.0/game",
+      6,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.4/game",
+      17,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.9/game",
+      23,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "16.9/game",
+      32,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "17.5/game",
+      21,
+      "WR"
+     ],
+     [
+      "receptions",
       "11.5/game",
       15,
       "WR"
      ],
      [
       "receiving yards",
-      "157.9/game",
-      10,
+      "164.5/game",
+      8,
       "WR"
      ],
      [
       "receiving TDs",
-      "1.4/game",
-      2,
+      "0.6/game",
+      26,
       "WR"
      ],
      [
       "receiving targets",
-      "5.8/game",
-      32,
-      "TE"
-     ],
-     [
-      "receptions",
-      "4.1/game",
+      "5.9/game",
       31,
       "TE"
      ],
      [
+      "receptions",
+      "4.4/game",
+      27,
+      "TE"
+     ],
+     [
       "receiving yards",
-      "51.1/game",
+      "49.3/game",
+      21,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      8,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.3/game",
+      6,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "217.9/game",
+      26,
+      "QB"
+     ],
+     [
+      "completions",
+      "22.3/game",
+      11,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.4/game",
       18,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "19.0/game",
+      9,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.2/game",
+      10,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "23.2/game",
+      12,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "100.9/game",
+      11,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.3/game",
+      2,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "6.2/game",
+      10,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.9/game",
+      6,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "29.4/game",
+      21,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "19.7/game",
+      9,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.8/game",
+      4,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "143.2/game",
+      20,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.7/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "7.2/game",
+      16,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.7/game",
+      24,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "45.2/game",
+      25,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      10,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.4/game",
+      23,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "No recent meetings",
+    "meetings": []
+   },
+   "history": {
+    "away": [],
+    "home": []
+   }
+  },
+  {
+   "away": "NO",
+   "home": "CHI",
+   "when": "Sunday 13:00",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "249.4/game",
+      11,
+      "QB"
+     ],
+     [
+      "completions",
+      "20.9/game",
+      18,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.4/game",
+      18,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "17.0/game",
+      13,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.0/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "25.0/game",
+      5,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "111.1/game",
+      4,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.4/game",
+      1,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.6/game",
+      15,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.9/game",
+      6,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "42.4/game",
+      3,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "16.8/game",
+      24,
+      "WR"
+     ],
+     [
+      "receptions",
+      "10.1/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "141.1/game",
+      22,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.8/game",
+      21,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "8.3/game",
+      8,
+      "TE"
+     ],
+     [
+      "receptions",
+      "5.9/game",
+      10,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "65.9/game",
+      5,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      10,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.1/game",
+      7,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "235.6/game",
+      18,
+      "QB"
+     ],
+     [
+      "completions",
+      "17.9/game",
+      31,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.4/game",
+      18,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "12.9/game",
+      22,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      3,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "17.9/game",
+      32,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "76.6/game",
+      24,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.6/game",
+      22,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.3/game",
+      21,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.2/game",
+      18,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "38.8/game",
+      9,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "16.0/game",
+      27,
+      "WR"
+     ],
+     [
+      "receptions",
+      "9.2/game",
+      29,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "147.4/game",
+      18,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.9/game",
+      17,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.6/game",
+      25,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.4/game",
+      26,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "49.3/game",
+      20,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.3/game",
+      18,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.3/game",
+      27,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "NO won 1 of the last 2",
+    "meetings": [
+     [
+      "2025, Week 7",
+      "CHI 26, NO 14"
+     ],
+     [
+      "2023, Week 9",
+      "NO 24, CHI 17"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Alvin Kamara",
+      "1 games",
+      "28 rush yds/game"
+     ],
+     [
+      "Chris Olave",
+      "1 games",
+      "98 rec yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Caleb Williams",
+      "1 games",
+      "172 pass yds/game"
+     ],
+     [
+      "D'Andre Swift",
+      "1 games",
+      "124 rush yds/game"
+     ],
+     [
+      "Luther Burden III",
+      "1 games",
+      "22 rec yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "TEN",
+   "home": "DAL",
+   "when": "Sunday 13:00",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "281.6/game",
+      1,
+      "QB"
+     ],
+     [
+      "completions",
+      "24.2/game",
+      1,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.6/game",
+      14,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "18.2/game",
+      11,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      3,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "24.9/game",
+      6,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "99.1/game",
+      12,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.8/game",
+      13,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "4.9/game",
+      26,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.0/game",
+      22,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "33.9/game",
+      14,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "20.7/game",
+      4,
+      "WR"
+     ],
+     [
+      "receptions",
+      "15.3/game",
+      1,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "204.6/game",
+      1,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.0/game",
+      9,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.9/game",
+      21,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.7/game",
+      24,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "41.3/game",
+      30,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      10,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.3/game",
+      2,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "252.2/game",
+      8,
+      "QB"
+     ],
+     [
+      "completions",
+      "21.5/game",
+      13,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.9/game",
+      4,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "26.3/game",
+      3,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.1/game",
+      23,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "23.7/game",
+      8,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "113.0/game",
+      3,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.1/game",
+      5,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.4/game",
+      17,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.6/game",
+      14,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "42.1/game",
+      4,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "18.1/game",
+      18,
+      "WR"
+     ],
+     [
+      "receptions",
+      "11.5/game",
+      15,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "157.5/game",
+      11,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.0/game",
+      9,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "7.3/game",
+      15,
+      "TE"
+     ],
+     [
+      "receptions",
+      "5.5/game",
+      12,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "52.6/game",
+      15,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.4/game",
+      16,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.7/game",
+      17,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "No recent meetings",
+    "meetings": []
+   },
+   "history": {
+    "away": [],
+    "home": []
+   }
+  },
+  {
+   "away": "TB",
+   "home": "DET",
+   "when": "Sunday 13:00",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "226.7/game",
+      24,
+      "QB"
+     ],
+     [
+      "completions",
+      "21.1/game",
+      16,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.3/game",
+      23,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "11.2/game",
+      26,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.0/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "18.4/game",
+      29,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "66.4/game",
+      32,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      30,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.4/game",
+      16,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.3/game",
+      16,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "29.1/game",
+      23,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "18.8/game",
+      14,
+      "WR"
+     ],
+     [
+      "receptions",
+      "11.3/game",
+      17,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "139.1/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.8/game",
+      21,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "8.1/game",
+      10,
+      "TE"
+     ],
+     [
+      "receptions",
+      "5.4/game",
+      14,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "58.4/game",
+      10,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      10,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.0/game",
+      11,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "260.1/game",
+      4,
+      "QB"
+     ],
+     [
+      "completions",
+      "24.0/game",
+      4,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "2.1/game",
+      3,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "20.3/game",
+      6,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.2/game",
+      10,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "18.2/game",
+      30,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "67.7/game",
+      29,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.4/game",
+      26,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.0/game",
+      24,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.9/game",
+      25,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "28.2/game",
+      24,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "20.2/game",
+      6,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.8/game",
+      4,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "155.7/game",
+      13,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.7/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "10.0/game",
+      1,
+      "TE"
+     ],
+     [
+      "receptions",
+      "7.4/game",
+      1,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "81.3/game",
+      1,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "1.2/game",
+      1,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.0/game",
+      31,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "TB won 1 of the last 3",
+    "meetings": [
+     [
+      "2025, Week 7",
+      "DET 24, TB 9"
+     ],
+     [
+      "2024, Week 2",
+      "DET 16, TB 20"
+     ],
+     [
+      "2023, Week 20",
+      "DET 31, TB 23"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Baker Mayfield",
+      "2 games",
+      "206 pass yds/game"
+     ],
+     [
+      "Bucky Irving",
+      "1 games",
+      "22 rush yds/game"
+     ],
+     [
+      "Emeka Egbuka",
+      "1 games",
+      "58 rec yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Jared Goff",
+      "2 games",
+      "274 pass yds/game"
+     ],
+     [
+      "Jahmyr Gibbs",
+      "2 games",
+      "110 rush yds/game"
+     ],
+     [
+      "Amon-Ra St. Brown",
+      "2 games",
+      "102 rec yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "ARI",
+   "home": "KC",
+   "when": "Sunday 13:00",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "232.5/game",
+      20,
+      "QB"
+     ],
+     [
+      "completions",
+      "18.4/game",
+      29,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "2.2/game",
+      1,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "17.1/game",
+      12,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      7,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "26.9/game",
+      1,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "110.0/game",
+      6,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.6/game",
+      21,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.0/game",
+      24,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.5/game",
+      26,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "33.1/game",
+      16,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "15.6/game",
+      29,
+      "WR"
+     ],
+     [
+      "receptions",
+      "9.7/game",
+      27,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "149.1/game",
+      16,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.2/game",
+      7,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.8/game",
+      22,
+      "TE"
+     ],
+     [
+      "receptions",
+      "5.2/game",
+      18,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "50.3/game",
+      19,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.8/game",
+      3,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.6/game",
+      21,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "227.8/game",
+      23,
+      "QB"
+     ],
+     [
+      "completions",
+      "21.4/game",
+      14,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "0.8/game",
+      31,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "16.9/game",
+      14,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.0/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "20.9/game",
+      23,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "73.4/game",
+      25,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.7/game",
+      18,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.9/game",
+      12,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.7/game",
+      13,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "37.1/game",
+      11,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "18.6/game",
+      15,
+      "WR"
+     ],
+     [
+      "receptions",
+      "10.1/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "124.4/game",
+      28,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.2/game",
+      32,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "9.1/game",
+      3,
+      "TE"
+     ],
+     [
+      "receptions",
+      "6.4/game",
+      4,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "64.1/game",
+      6,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      10,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.3/game",
+      2,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "No recent meetings",
+    "meetings": []
+   },
+   "history": {
+    "away": [
+     [
+      "Tyler Allgeier",
+      "1 games",
+      "32 rush yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Kenneth Walker III",
+      "3 games",
+      "63 rush yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "JAX",
+   "home": "NYG",
+   "when": "Sunday 13:00",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "236.1/game",
+      17,
+      "QB"
+     ],
+     [
+      "completions",
+      "22.0/game",
+      12,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.1/game",
+      28,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "15.6/game",
+      17,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.1/game",
+      20,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "18.0/game",
+      31,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "67.4/game",
+      30,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.4/game",
+      26,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "6.3/game",
+      8,
+      "RB"
+     ],
+     [
+      "receptions",
+      "5.3/game",
+      3,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "36.1/game",
+      12,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "18.9/game",
+      13,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.6/game",
+      9,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "170.2/game",
+      5,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.4/game",
+      31,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.4/game",
+      27,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.2/game",
+      29,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "31.0/game",
+      32,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      10,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.4/game",
+      23,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "195.9/game",
+      30,
+      "QB"
+     ],
+     [
+      "completions",
+      "19.9/game",
+      22,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.9/game",
+      6,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "29.3/game",
+      1,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      3,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "21.3/game",
+      20,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "90.7/game",
+      18,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.4/game",
+      26,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "4.0/game",
+      31,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.3/game",
+      28,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "21.7/game",
+      28,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "18.2/game",
+      17,
+      "WR"
+     ],
+     [
+      "receptions",
+      "10.6/game",
+      20,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "126.6/game",
+      26,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.2/game",
+      3,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "8.6/game",
+      6,
+      "TE"
+     ],
+     [
+      "receptions",
+      "6.0/game",
+      8,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "47.7/game",
+      22,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.3/game",
+      18,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.0/game",
+      31,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "No recent meetings",
+    "meetings": []
+   },
+   "history": {
+    "away": [],
+    "home": [
+     [
+      "Jameis Winston",
+      "1 games",
+      "0 pass yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "NYJ",
+   "home": "LAC",
+   "when": "Sunday 16:05",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "210.5/game",
+      27,
+      "QB"
+     ],
+     [
+      "completions",
+      "18.5/game",
+      28,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.7/game",
+      10,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "14.2/game",
+      19,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.4/game",
+      2,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "25.8/game",
+      3,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "115.8/game",
+      2,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.8/game",
+      9,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "4.4/game",
+      29,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.2/game",
+      30,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "26.0/game",
+      26,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "15.6/game",
+      29,
+      "WR"
+     ],
+     [
+      "receptions",
+      "9.9/game",
+      26,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "121.3/game",
+      29,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.0/game",
+      9,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "7.7/game",
+      13,
+      "TE"
+     ],
+     [
+      "receptions",
+      "5.4/game",
+      15,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "63.2/game",
+      7,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.3/game",
+      23,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.3/game",
+      28,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "242.8/game",
+      13,
+      "QB"
+     ],
+     [
+      "completions",
+      "20.7/game",
+      19,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.4/game",
+      18,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "9.9/game",
+      28,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.2/game",
+      10,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "23.6/game",
+      9,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "94.9/game",
+      15,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.1/game",
+      4,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "6.1/game",
+      11,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.1/game",
+      20,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "24.0/game",
+      27,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "17.7/game",
+      20,
+      "WR"
+     ],
+     [
+      "receptions",
+      "11.6/game",
+      13,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "160.0/game",
+      9,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.2/game",
+      3,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.3/game",
+      28,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.9/game",
+      20,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "58.7/game",
+      9,
       "TE"
      ],
      [
@@ -129,30 +2539,775 @@
       7,
       "K"
      ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "NYJ won 0 of the last 1",
+    "meetings": [
+     [
+      "2023, Week 9",
+      "NYJ 6, LAC 27"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Geno Smith",
+      "2 games",
+      "172 pass yds/game"
+     ]
     ],
-    "home": [
+    "home": []
+   }
+  },
+  {
+   "away": "LV",
+   "home": "DEN",
+   "when": "Sunday 16:25",
+   "defense": {
+    "away": [
      [
       "pass yards",
-      "241.9/game",
-      13,
+      "247.8/game",
+      12,
       "QB"
      ],
      [
       "completions",
-      "20.8/game",
-      19,
+      "19.7/game",
+      24,
       "QB"
      ],
      [
       "pass TDs",
+      "2.2/game",
+      1,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "16.1/game",
+      16,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      7,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "25.6/game",
+      4,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "131.5/game",
+      1,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "1.0/game",
+      6,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "3.6/game",
+      32,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.3/game",
+      29,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "29.5/game",
+      20,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "16.5/game",
+      26,
+      "WR"
+     ],
+     [
+      "receptions",
+      "10.2/game",
+      22,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "166.0/game",
+      6,
+      "WR"
+     ],
+     [
+      "receiving TDs",
       "1.3/game",
+      2,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "8.0/game",
+      11,
+      "TE"
+     ],
+     [
+      "receptions",
+      "6.2/game",
+      6,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "52.3/game",
+      16,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.8/game",
+      3,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.3/game",
+      28,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "249.9/game",
+      10,
+      "QB"
+     ],
+     [
+      "completions",
+      "23.0/game",
+      7,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.6/game",
+      14,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "19.9/game",
+      8,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.1/game",
+      20,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "22.3/game",
+      17,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "98.2/game",
+      14,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.6/game",
+      22,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "6.7/game",
+      5,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.9/game",
+      6,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "41.8/game",
+      5,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "18.6/game",
+      15,
+      "WR"
+     ],
+     [
+      "receptions",
+      "10.7/game",
+      19,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "129.6/game",
+      24,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      27,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "9.8/game",
+      2,
+      "TE"
+     ],
+     [
+      "receptions",
+      "7.2/game",
+      2,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "75.4/game",
+      4,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.8/game",
+      5,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.7/game",
+      18,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "LV won 0 of the last 3",
+    "meetings": [
+     [
+      "2025, Week 14",
+      "LV 17, DEN 24"
+     ],
+     [
+      "2025, Week 10",
+      "DEN 10, LV 7"
+     ],
+     [
+      "2024, Week 12",
+      "LV 19, DEN 29"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Kirk Cousins",
+      "1 games",
+      "173 pass yds/game"
+     ],
+     [
+      "Ashton Jeanty",
+      "2 games",
+      "45 rush yds/game"
+     ],
+     [
+      "Tre Tucker",
+      "4 games",
+      "38 rec yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Bo Nix",
+      "4 games",
+      "210 pass yds/game"
+     ],
+     [
+      "J.K. Dobbins",
+      "3 games",
+      "92 rush yds/game"
+     ],
+     [
+      "Jaylen Waddle",
+      "1 games",
+      "37 rec yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "PIT",
+   "home": "PHI",
+   "when": "Sunday 16:25",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "260.6/game",
+      3,
+      "QB"
+     ],
+     [
+      "completions",
+      "24.2/game",
+      1,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.2/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "12.4/game",
       23,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.0/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "19.6/game",
+      28,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "70.0/game",
+      28,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.4/game",
+      26,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "8.0/game",
+      1,
+      "RB"
+     ],
+     [
+      "receptions",
+      "6.4/game",
+      1,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "48.8/game",
+      1,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "20.1/game",
+      7,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.7/game",
+      6,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "158.3/game",
+      10,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      27,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.7/game",
+      23,
+      "TE"
+     ],
+     [
+      "receptions",
+      "5.0/game",
+      19,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "53.8/game",
+      13,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.3/game",
+      18,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.3/game",
+      2,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "238.9/game",
+      14,
+      "QB"
+     ],
+     [
+      "completions",
+      "20.0/game",
+      20,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.4/game",
+      18,
       "QB"
      ],
      [
       "rush yards",
       "16.6/game",
-      14,
+      15,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.3/game",
+      3,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "26.7/game",
+      2,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "108.9/game",
+      9,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.7/game",
+      18,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "4.3/game",
+      30,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.1/game",
+      31,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "17.4/game",
+      31,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "21.1/game",
+      2,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.6/game",
+      9,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "177.6/game",
+      2,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.1/game",
+      8,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "5.9/game",
+      32,
+      "TE"
+     ],
+     [
+      "receptions",
+      "4.2/game",
+      29,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "42.9/game",
+      28,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.3/game",
+      18,
+      "TE"
+     ],
+     [
+      "field goals",
+      "2.3/game",
+      2,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "PIT won 0 of the last 1",
+    "meetings": [
+     [
+      "2024, Week 15",
+      "PHI 27, PIT 13"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Jaylen Warren",
+      "1 games",
+      "12 rush yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Jalen Hurts",
+      "1 games",
+      "290 pass yds/game"
+     ],
+     [
+      "Saquon Barkley",
+      "1 games",
+      "65 rush yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "MIN",
+   "home": "SF",
+   "when": "Sunday 20:20",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "190.9/game",
+      31,
+      "QB"
+     ],
+     [
+      "completions",
+      "17.0/game",
+      32,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "0.7/game",
+      32,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "10.4/game",
+      27,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.0/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "23.1/game",
+      13,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "98.6/game",
+      13,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.6/game",
+      22,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "4.4/game",
+      28,
+      "RB"
+     ],
+     [
+      "receptions",
+      "3.1/game",
+      31,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "21.4/game",
+      29,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "16.8/game",
+      24,
+      "WR"
+     ],
+     [
+      "receptions",
+      "10.2/game",
+      21,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "125.6/game",
+      27,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.6/game",
+      27,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "6.6/game",
+      25,
+      "TE"
+     ],
+     [
+      "receptions",
+      "3.7/game",
+      32,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "43.9/game",
+      27,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.1/game",
+      28,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.7/game",
+      18,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "236.2/game",
+      16,
+      "QB"
+     ],
+     [
+      "completions",
+      "24.2/game",
+      1,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.8/game",
+      9,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "5.4/game",
+      32,
       "QB"
      ],
      [
@@ -163,203 +3318,431 @@
      ],
      [
       "rush attempts",
-      "22.6/game",
-      16,
+      "20.4/game",
+      25,
       "RB"
      ],
      [
       "rush yards",
-      "81.3/game",
-      21,
+      "72.4/game",
+      27,
       "RB"
      ],
      [
       "rush TDs",
-      "1.0/game",
-      5,
+      "0.2/game",
+      31,
       "RB"
      ],
      [
       "receiving targets",
-      "5.4/game",
-      15,
+      "7.2/game",
+      3,
       "RB"
      ],
      [
       "receptions",
-      "4.0/game",
-      21,
+      "6.3/game",
+      2,
       "RB"
      ],
      [
       "receiving yards",
-      "17.2/game",
-      32,
+      "40.1/game",
+      7,
       "RB"
      ],
      [
       "receiving targets",
-      "18.7/game",
-      15,
+      "19.7/game",
+      9,
       "WR"
      ],
      [
       "receptions",
-      "12.1/game",
+      "11.9/game",
       12,
       "WR"
      ],
      [
       "receiving yards",
-      "172.6/game",
-      5,
+      "142.1/game",
+      21,
       "WR"
      ],
      [
       "receiving TDs",
-      "0.7/game",
-      23,
+      "1.2/game",
+      3,
       "WR"
      ],
      [
       "receiving targets",
-      "6.1/game",
-      30,
+      "7.9/game",
+      12,
       "TE"
      ],
      [
       "receptions",
-      "4.6/game",
-      25,
+      "6.0/game",
+      8,
       "TE"
      ],
      [
       "receiving yards",
-      "52.2/game",
-      16,
+      "54.6/game",
+      12,
       "TE"
      ],
      [
       "receiving TDs",
-      "0.7/game",
-      7,
+      "0.3/game",
+      18,
       "TE"
      ],
      [
       "field goals",
-      "2.2/game",
-      6,
+      "2.1/game",
+      7,
       "K"
      ]
     ]
    },
    "injuries": {
-    "away": [
-     [
-      "Denzel Perryman",
-      "LB",
-      "Questionable",
-      "pectoral"
-     ],
-     [
-      "David Njoku",
-      "TE",
-      "Questionable",
-      "fibula"
-     ],
-     [
-      "Trey Pipkins",
-      "T",
-      "Questionable",
-      "not injury related - personal matter"
-     ],
-     [
-      "Kayode Awosika",
-      "G",
-      "Questionable",
-      "fibula"
-     ],
-     [
-      "Kendall Williamson",
-      "S",
-      "Out",
-      "calf"
-     ],
-     [
-      "Justin Eboigbe",
-      "DE",
-      "Questionable",
-      "ankle"
-     ],
-     [
-      "Ladd McConkey",
-      "WR",
-      "Questionable",
-      "back"
-     ],
-     [
-      "Isas Waxter",
-      "CB",
-      "Out",
-      "ankle"
-     ]
-    ],
-    "home": [
-     [
-      "Jaylinn Hawkins",
-      "S",
-      "Out",
-      "knee"
-     ],
-     [
-      "Adam Randall",
-      "RB",
-      "Questionable",
-      "neck"
-     ]
-    ]
+    "away": [],
+    "home": []
    },
    "series": {
-    "summary": "LAC won 0 of the last 2",
+    "summary": "MIN won 2 of the last 2",
     "meetings": [
      [
-      "2024, Week 12",
-      "LAC 23, BAL 30"
+      "2024, Week 2",
+      "MIN 23, SF 17"
      ],
      [
-      "2023, Week 12",
-      "LAC 10, BAL 20"
+      "2023, Week 7",
+      "MIN 22, SF 17"
      ]
     ]
    },
    "history": {
     "away": [
      [
-      "Justin Herbert",
-      "1 games",
-      "218 pass yds/game"
+      "Kyler Murray",
+      "3 games",
+      "199 pass yds/game"
      ],
      [
-      "Ladd McConkey",
+      "Aaron Jones",
       "1 games",
-      "83 rec yds/game"
+      "32 rush yds/game"
+     ],
+     [
+      "Justin Jefferson",
+      "1 games",
+      "133 rec yds/game"
      ]
     ],
     "home": [
      [
-      "Lamar Jackson",
+      "Brock Purdy",
       "1 games",
-      "177 pass yds/game"
+      "319 pass yds/game"
+     ]
+    ]
+   }
+  },
+  {
+   "away": "CIN",
+   "home": "WAS",
+   "when": "Monday 20:15",
+   "defense": {
+    "away": [
+     [
+      "pass yards",
+      "237.1/game",
+      15,
+      "QB"
      ],
      [
-      "Derrick Henry",
-      "1 games",
-      "140 rush yds/game"
+      "completions",
+      "21.1/game",
+      16,
+      "QB"
      ],
      [
-      "Zay Flowers",
+      "pass TDs",
+      "1.2/game",
+      25,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "28.2/game",
+      2,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.2/game",
+      10,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "19.7/game",
+      27,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "87.9/game",
+      20,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.7/game",
+      18,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "5.8/game",
+      13,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.8/game",
+      11,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "32.7/game",
+      17,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "17.1/game",
+      22,
+      "WR"
+     ],
+     [
+      "receptions",
+      "10.1/game",
+      23,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "128.3/game",
+      25,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "1.0/game",
+      9,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "8.9/game",
+      4,
+      "TE"
+     ],
+     [
+      "receptions",
+      "6.2/game",
+      5,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "76.1/game",
+      2,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "0.2/game",
+      25,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.9/game",
+      14,
+      "K"
+     ]
+    ],
+    "home": [
+     [
+      "pass yards",
+      "258.6/game",
+      5,
+      "QB"
+     ],
+     [
+      "completions",
+      "24.0/game",
+      4,
+      "QB"
+     ],
+     [
+      "pass TDs",
+      "1.9/game",
+      6,
+      "QB"
+     ],
+     [
+      "rush yards",
+      "21.9/game",
+      4,
+      "QB"
+     ],
+     [
+      "rush TDs",
+      "0.1/game",
+      20,
+      "QB"
+     ],
+     [
+      "rush attempts",
+      "21.2/game",
+      21,
+      "RB"
+     ],
+     [
+      "rush yards",
+      "79.3/game",
+      22,
+      "RB"
+     ],
+     [
+      "rush TDs",
+      "0.9/game",
+      8,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "6.4/game",
+      6,
+      "RB"
+     ],
+     [
+      "receptions",
+      "4.6/game",
+      15,
+      "RB"
+     ],
+     [
+      "receiving yards",
+      "33.7/game",
+      15,
+      "RB"
+     ],
+     [
+      "receiving targets",
+      "19.6/game",
+      11,
+      "WR"
+     ],
+     [
+      "receptions",
+      "12.9/game",
+      3,
+      "WR"
+     ],
+     [
+      "receiving yards",
+      "149.2/game",
+      15,
+      "WR"
+     ],
+     [
+      "receiving TDs",
+      "0.9/game",
+      17,
+      "WR"
+     ],
+     [
+      "receiving targets",
+      "8.8/game",
+      5,
+      "TE"
+     ],
+     [
+      "receptions",
+      "6.6/game",
+      3,
+      "TE"
+     ],
+     [
+      "receiving yards",
+      "76.1/game",
+      2,
+      "TE"
+     ],
+     [
+      "receiving TDs",
+      "1.0/game",
+      2,
+      "TE"
+     ],
+     [
+      "field goals",
+      "1.6/game",
+      22,
+      "K"
+     ]
+    ]
+   },
+   "injuries": {
+    "away": [],
+    "home": []
+   },
+   "series": {
+    "summary": "CIN won 0 of the last 1",
+    "meetings": [
+     [
+      "2024, Week 3",
+      "CIN 33, WAS 38"
+     ]
+    ]
+   },
+   "history": {
+    "away": [
+     [
+      "Joe Burrow",
       "1 games",
-      "62 rec yds/game"
+      "324 pass yds/game"
+     ],
+     [
+      "Chase Brown",
+      "1 games",
+      "62 rush yds/game"
+     ],
+     [
+      "Ja'Marr Chase",
+      "1 games",
+      "118 rec yds/game"
+     ]
+    ],
+    "home": [
+     [
+      "Jayden Daniels",
+      "1 games",
+      "254 pass yds/game"
+     ],
+     [
+      "Stefon Diggs",
+      "1 games",
+      "20 rec yds/game"
      ]
     ]
    }
