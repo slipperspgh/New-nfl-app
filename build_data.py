@@ -157,10 +157,44 @@ for _, g in upcoming.iterrows():
         "history": {"away": history(a, h), "home": history(h, a)},
     })
 
+# ---------- Player logs (for the Player checker) ----------
+STAT_COLS = ["passing_yards", "passing_tds", "completions", "rushing_yards", "carries",
+             "receptions", "receiving_yards", "targets", "tds"]
+w = weekly.copy()
+w["tds"] = w["rushing_tds"] + w["receiving_tds"]
+w = w.sort_values(["season", "week"])
+cur_w = w[w["season"] == SEASON].copy()
+cur_w["usage"] = cur_w["carries"] + cur_w["targets"]
+ROLES = {"QB": ("passing_yards", 1), "RB": ("usage", 3), "WR": ("targets", 4), "TE": ("targets", 2)}
+
+
+def week_label(r):
+    wk = int(r["week"])
+    return f"W{wk}" if int(r["season"]) == SEASON else f"'{int(r['season']) % 100} W{wk}"
+
+
+players_out = []
+for pos, (rank_col, n_keep) in ROLES.items():
+    sub = cur_w[cur_w["position"] == pos]
+    if sub.empty:
+        continue
+    ranked = pd.DataFrame({"tot": sub.groupby(NAME)[rank_col].sum(),
+                           "team": sub.groupby(NAME)[TEAM].last()}).sort_values("tot", ascending=False)
+    for team, grp in ranked.groupby("team"):
+        for name in grp.head(n_keep).index:
+            allg = w[w[NAME] == name]
+            last7 = allg.tail(7).iloc[::-1]
+            this_season = cur_w[cur_w[NAME] == name]
+            players_out.append({
+                "n": name, "t": team, "p": pos,
+                "a": [round(float(this_season[c].mean()), 1) for c in STAT_COLS],
+                "g": [[week_label(r), r[OPP]] + [int(r[c]) for c in STAT_COLS] for _, r in last7.iterrows()],
+            })
+
 os.makedirs("data", exist_ok=True)
 with open("data/nfl.json", "w") as f:
     json.dump({
         "updated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
-        "season": SEASON, "week": next_week, "games": games_out,
-    }, f, indent=1)
-print(f"Wrote {len(games_out)} games for season {SEASON}, week {next_week}")
+        "season": SEASON, "week": next_week, "games": games_out, "players": players_out,
+    }, f, separators=(",", ":"))
+print(f"Wrote {len(games_out)} games and {len(players_out)} players for season {SEASON}, week {next_week}")

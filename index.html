@@ -78,7 +78,7 @@ svg{width:100%;display:block}
 <p class="lede" id="lede"></p>
 <section id="chk" hidden>
 <h2 class="st">Player checker</h2>
-<input id="pn" list="pl" placeholder="Type a player, like LeBron James" autocomplete="off" aria-label="Player name">
+<input id="pn" list="pl" placeholder="Type a player’s name" autocomplete="off" aria-label="Player name">
 <datalist id="pl"></datalist>
 <div class="fld"><select id="ps" aria-label="Stat"></select><input id="pv" type="number" step="0.5" inputmode="decimal" placeholder="Line" aria-label="Your line"></div>
 <div id="pr"></div>
@@ -86,17 +86,20 @@ svg{width:100%;display:block}
 <div id="list"></div>
 </div>
 <div id="detail" hidden></div>
-<p class="note">Team badges use team colors and abbreviations, not official logos. Stats are calculated from free public data (nflverse for the NFL, ESPN-based data for the NBA). Stats only, not betting advice. Sports betting is legal only in some states, and age rules vary. Problem gambling help: 1-800-GAMBLER.</p>
+<p class="note">Team badges use team colors and abbreviations, not official logos. Stats are calculated from free public data (nflverse for the NFL, ESPN-based data for the NBA, the NHL’s public data for the NHL). Stats only, not betting advice. Sports betting is legal only in some states, and age rules vary. Problem gambling help: 1-800-GAMBLER.</p>
 </main>
 <script>
 const NFLN={ARI:"Arizona Cardinals",ATL:"Atlanta Falcons",BAL:"Baltimore Ravens",BUF:"Buffalo Bills",CAR:"Carolina Panthers",CHI:"Chicago Bears",CIN:"Cincinnati Bengals",CLE:"Cleveland Browns",DAL:"Dallas Cowboys",DEN:"Denver Broncos",DET:"Detroit Lions",GB:"Green Bay Packers",HOU:"Houston Texans",IND:"Indianapolis Colts",JAX:"Jacksonville Jaguars",KC:"Kansas City Chiefs",LA:"Los Angeles Rams",LAC:"Los Angeles Chargers",LV:"Las Vegas Raiders",MIA:"Miami Dolphins",MIN:"Minnesota Vikings",NE:"New England Patriots",NO:"New Orleans Saints",NYG:"New York Giants",NYJ:"New York Jets",PHI:"Philadelphia Eagles",PIT:"Pittsburgh Steelers",SEA:"Seattle Seahawks",SF:"San Francisco 49ers",TB:"Tampa Bay Buccaneers",TEN:"Tennessee Titans",WAS:"Washington Commanders"};
 const NFLC={ARI:"97233F",ATL:"A71930",BAL:"241773",BUF:"00338D",CAR:"0085CA",CHI:"0B162A",CIN:"FB4F14",CLE:"311D00",DAL:"003594",DEN:"FB4F14",DET:"0076B6",GB:"203731",HOU:"03202F",IND:"002C5F",JAX:"006778",KC:"E31837",LA:"003594",LAC:"0080C6",LV:"000000",MIA:"008E97",MIN:"4F2683",NE:"002244",NO:"9F8958",NYG:"0B2265",NYJ:"125740",PHI:"004C54",PIT:"FFB612",SEA:"002244",SF:"AA0000",TB:"D50A0A",TEN:"4B92DB",WAS:"5A1414"};
 const NBAN={ATL:"Atlanta Hawks",BOS:"Boston Celtics",BKN:"Brooklyn Nets",CHA:"Charlotte Hornets",CHI:"Chicago Bulls",CLE:"Cleveland Cavaliers",DAL:"Dallas Mavericks",DEN:"Denver Nuggets",DET:"Detroit Pistons",GS:"Golden State Warriors",HOU:"Houston Rockets",IND:"Indiana Pacers",LAC:"Los Angeles Clippers",LAL:"Los Angeles Lakers",MEM:"Memphis Grizzlies",MIA:"Miami Heat",MIL:"Milwaukee Bucks",MIN:"Minnesota Timberwolves",NO:"New Orleans Pelicans",NY:"New York Knicks",OKC:"Oklahoma City Thunder",ORL:"Orlando Magic",PHI:"Philadelphia 76ers",PHX:"Phoenix Suns",POR:"Portland Trail Blazers",SAC:"Sacramento Kings",SA:"San Antonio Spurs",TOR:"Toronto Raptors",UTAH:"Utah Jazz",WSH:"Washington Wizards"};
 const NBAC={ATL:"C8102E",BOS:"007A33",BKN:"000000",CHA:"1D1160",CHI:"CE1141",CLE:"860038",DAL:"00538C",DEN:"0E2240",DET:"C8102E",GS:"1D428A",HOU:"CE1141",IND:"002D62",LAC:"C8102E",LAL:"552583",MEM:"5D76A9",MIA:"98002E",MIL:"00471B",MIN:"0C2340",NO:"0C2340",NY:"006BB6",OKC:"007AC1",ORL:"0077C0",PHI:"006BB6",PHX:"1D1160",POR:"E03A3E",SAC:"5A2D81",SA:"C4CED4",TOR:"CE1141",UTAH:"002B5C",WSH:"002B5C"};
+const NHLN={ANA:"Anaheim Ducks",BOS:"Boston Bruins",BUF:"Buffalo Sabres",CGY:"Calgary Flames",CAR:"Carolina Hurricanes",CHI:"Chicago Blackhawks",COL:"Colorado Avalanche",CBJ:"Columbus Blue Jackets",DAL:"Dallas Stars",DET:"Detroit Red Wings",EDM:"Edmonton Oilers",FLA:"Florida Panthers",LAK:"Los Angeles Kings",MIN:"Minnesota Wild",MTL:"Montréal Canadiens",NSH:"Nashville Predators",NJD:"New Jersey Devils",NYI:"New York Islanders",NYR:"New York Rangers",OTT:"Ottawa Senators",PHI:"Philadelphia Flyers",PIT:"Pittsburgh Penguins",SEA:"Seattle Kraken",SJS:"San Jose Sharks",STL:"St. Louis Blues",TBL:"Tampa Bay Lightning",TOR:"Toronto Maple Leafs",UTA:"Utah Mammoth",VAN:"Vancouver Canucks",VGK:"Vegas Golden Knights",WSH:"Washington Capitals",WPG:"Winnipeg Jets"};
+const NHLC={ANA:"F47A38",BOS:"FFB81C",BUF:"002654",CGY:"C8102E",CAR:"CC0000",CHI:"CF0A2C",COL:"6F263D",CBJ:"002654",DAL:"006847",DET:"CE1126",EDM:"041E42",FLA:"C8102E",LAK:"111111",MIN:"154734",MTL:"AF1E2D",NSH:"FFB81C",NJD:"CE1126",NYI:"00539B",NYR:"0038A8",OTT:"C8102E",PHI:"F74902",PIT:"FCB514",SEA:"001628",SJS:"006D75",STL:"002F87",TBL:"002868",TOR:"00205B",UTA:"6CACE4",VAN:"00205B",VGK:"B4975A",WSH:"C8102E",WPG:"041E42"};
 const SPORTS={
-  nfl:{n:"NFL",f:"data/nfl.json",N:NFLN,C:NFLC,teams:32,pos:[["QB","Quarterbacks"],["RB","Running backs"],["WR","Wide receivers"],["TE","Tight ends"],["K","Kickers"]],noun:{QB:"QBs",RB:"RBs",WR:"WRs",TE:"TEs"}},
-  nba:{n:"NBA",f:"data/nba.json",N:NBAN,C:NBAC,teams:30,pos:[["G","Guards"],["F","Forwards"],["C","Centers"]],noun:{G:"guards",F:"forwards",C:"centers"},players:true},
-  mlb:{n:"MLB"},nhl:{n:"NHL"}};
+  nfl:{n:"NFL",f:"data/nfl.json",N:NFLN,C:NFLC,teams:32,pos:[["QB","Quarterbacks"],["RB","Running backs"],["WR","Wide receivers"],["TE","Tight ends"],["K","Kickers"]],noun:{QB:"QBs",RB:"RBs",WR:"WRs",TE:"TEs"},players:true,stats:[["Pass yards",2],["Pass TDs",3],["Completions",4],["Rush yards",5],["Rush attempts",6],["Receptions",7],["Receiving yards",8],["Targets",9],["Rush + rec TDs",10]]},
+  nba:{n:"NBA",f:"data/nba.json",N:NBAN,C:NBAC,teams:30,pos:[["G","Guards"],["F","Forwards"],["C","Centers"]],noun:{G:"guards",F:"forwards",C:"centers"},players:true,stats:[["Points",2],["Rebounds",3],["Assists",4],["3-pointers made",5]]},
+  nhl:{n:"NHL",f:"data/nhl.json",N:NHLN,C:NHLC,teams:32,pos:[["C","Centers"],["W","Wingers"],["D","Defensemen"]],noun:{C:"centers",W:"wingers",D:"defensemen"},players:true,stats:[["Goals",2],["Assists",3],["Points",4],["Shots on goal",5],["Blocked shots",6],["Hits",7],["Saves",8]]},
+  mlb:{n:"MLB"}};
 let SP=SPORTS.nfl;
 const DAYS=["Thursday","Friday","Saturday","Sunday","Monday","Tuesday","Wednesday"];
 const nm=t=>SP.N[t]||t;
@@ -109,7 +112,6 @@ const ord=n=>{const s=["th","st","nd","rd"],v=n%100;return n+(s[(v-20)%10]||s[v]
 const day=g=>(g.when||"").split(" ")[0];
 const tm=g=>{const m=(g.when||"").split(" ")[1];if(!m||!m.includes(":"))return"";const[h,mi]=m.split(":").map(Number);return`${h%12||12}:${String(mi).padStart(2,"0")} ${h<12?"AM":"PM"} ET`};
 let G=[],cur=null,tab="def",PL=[];
-const STATS=[["Points",2],["Rebounds",3],["Assists",4],["3-pointers made",5]];
 
 $("sport").innerHTML=Object.entries(SPORTS).map(([k,s])=>`<option value="${k}">${s.n}</option>`).join("");
 $("sport").onchange=e=>load(e.target.value);
@@ -191,16 +193,16 @@ function bars(v,lab,L){
 function initChecker(){
   $("chk").hidden=false;
   $("pl").innerHTML=PL.map(p=>`<option value="${p.n}">${p.t}</option>`).join("");
-  $("ps").innerHTML=STATS.map(([l,i])=>`<option value="${i}">${l}</option>`).join("");
+  $("ps").innerHTML=SP.stats.map(([l,i])=>`<option value="${i}">${l}</option>`).join("");
   check();
 }
 function check(){
   const q=$("pn").value.trim().toLowerCase(),i=+$("ps").value,L=parseFloat($("pv").value);
   const p=PL.find(x=>x.n.toLowerCase()==q)||(q.length>2?PL.find(x=>x.n.toLowerCase().includes(q)):null);
   if(!p){$("pr").innerHTML=`<p class="empty">${q?"No player found. Pick a name from the suggestions.":"Type a player, pick a stat, and enter a number."}</p>`;return}
-  const gs=p.g.slice().reverse(),v=gs.map(g=>g[i]),n=v.length,lab=STATS.find(s=>s[1]==i)[0].toLowerCase();
+  const gs=p.g.slice().reverse(),v=gs.map(g=>g[i]),n=v.length,lab=SP.stats.find(s=>s[1]==i)[0].toLowerCase();
   const hits=v.filter(x=>x>L).length,avg=(v.reduce((a,b)=>a+b,0)/n).toFixed(1);
-  $("pr").innerHTML=`<p class="sumtx">${p.n} (${nm(p.t)})</p><p class="sub">${isNaN(L)?"Enter a line to compare the last "+n+" games.":"Above "+L+" "+lab+" in "+hits+" of the last "+n+" games."} Last-${n} average ${avg}. Season average ${p.a[i-2]}.</p>${bars(v,gs.map(g=>g[1]),L)}<p class="sub">Bars run oldest to newest, labeled by opponent. Sportsbook odds aren’t included yet.</p>`;
+  $("pr").innerHTML=`<p class="sumtx">${p.n} (${p.p?p.p+", ":""}${nm(p.t)})</p><p class="sub">${isNaN(L)?"Enter a line to compare the last "+n+" games.":"Above "+L+" "+lab+" in "+hits+" of the last "+n+" games."} Last-${n} average ${avg}. Season average ${p.a[i-2]}.</p>${bars(v,gs.map(g=>g[1]),L)}<p class="sub">Bars run oldest to newest, labeled by opponent. Sportsbook odds aren’t included yet.</p>`;
 }
 ["pn","ps","pv"].forEach(id=>{$(id).oninput=check;$(id).onchange=check});
 load("nfl");
